@@ -25,7 +25,7 @@ SECRET_KEY = '+-8i^=1)9q5h&_0woaj8s39g(h%#6%6%drydcgkx&&@fy86px1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'PhotoManage'
 ]
 
 MIDDLEWARE = [
